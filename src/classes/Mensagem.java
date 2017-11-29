@@ -34,7 +34,7 @@ public class Mensagem {
         return inteiros;
     }
     
-    //Método que recebe um array de char e cria um array de inteiros 
+    //Método que recebe um array de inteiros e cria um array de char 
     //correspondentes de acordo com os caracteres da tabela ascii
     public char[] inteirosParaChars(int[] inteiros){
         char[] chars = new char[inteiros.length];
